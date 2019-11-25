@@ -1,0 +1,47 @@
+
+#shape-div {
+    
+    width: 1000px;
+    height: 450px;
+    background-color: lightyellow;
+    margin: 0 auto;
+    z-index: 1;
+    border: 1px solid black;
+    
+}
+
+#shape {
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: none;
+    position: relative;
+    z-index: 5;
+
+}
+
+.buttonDesign {
+
+    font-size: 50px;
+    color: white;
+    background-color: darkblue;
+    font-weight: bold;
+    border: 1px solid #900;
+    margin-bottom: 10px;
+
+}
+
+.buttonDesign:hover {
+
+    color: #FFF;
+    background: #900;
+    cursor: pointer;
+
+}
+
+#developer {
+
+    float: right;
+
+}
