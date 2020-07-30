@@ -73,12 +73,12 @@ document.getElementById("startButton").onclick = function() {
                     
                 }
                     
-                        document.getElementById("timeTaken").innerHTML = timeTaken + "s";
-                        document.getElementById("bestTimeTaken").innerHTML = bestTime + "s";
+                        document.getElementById("timeTaken").innerHTML = timeTaken.toFixed(3) + "s";
+                        document.getElementById("bestTimeTaken").innerHTML = bestTime.toFixed(3) + "s";
                         
                         totalTime = totalTime + timeTaken;
                         avgTime = totalTime/ctr;
-                        document.getElementById("avgTimeTaken").innerHTML = avgTime + "s";
+                        document.getElementById("avgTimeTaken").innerHTML = avgTime.toFixed(3) + "s";
                         
                         document.getElementById("trials").innerHTML = ctr;
                         ctr++;
