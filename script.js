@@ -30,7 +30,7 @@ document.getElementById("startButton").onclick = function() {
 
                     var width = (Math.random() * 100) + 100;
                                         
-                    var position = Math.random() * 250;
+                    var position = Math.random() * 200;
                     var positionLeft = Math.random() * 800;
                     
                     if(Math.random() > 0.5) {
