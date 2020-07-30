@@ -2,7 +2,7 @@
 #shape-div {
     
     width: 1000px;
-    height: 350px;
+    height: 400px;
     background-color: lightyellow;
     margin: 0 auto;
     z-index: 1;
@@ -40,8 +40,19 @@
 
 }
 
+.exp {
+    width:1000px;
+    margin: auto;
+}
+
 #developer {
 
     float: right;
 
+}
+
+#about {
+    float: right;
+    position: relative;
+    right: 230px;
 }
