@@ -1,5 +1,4 @@
-
-document.getElementById("startButton").onclick = function() {
+    document.getElementById("startButton").onclick = function() {
            
                 var ctr = 1;
             
@@ -30,8 +29,8 @@ document.getElementById("startButton").onclick = function() {
 
                     var width = (Math.random() * 100) + 100;
                                         
-                    var position = Math.random() * 180;
-                    var positionLeft = Math.random() * 800;
+                    var position = Math.random() * 130;
+                    var positionLeft = Math.random() * 850;
                     
                     if(Math.random() > 0.5) {
                         

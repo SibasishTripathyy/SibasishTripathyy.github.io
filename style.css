@@ -21,38 +21,19 @@
 
 }
 
-.buttonDesign {
-
-    font-size: 50px;
-    color: white;
-    background-color: darkblue;
-    font-weight: bold;
-    border: 1px solid #900;
-    margin-bottom: 10px;
-
+a {
+    text-decoration: none;
+    color: black;
 }
 
-.buttonDesign:hover {
-
-    color: #FFF;
-    background: #900;
-    cursor: pointer;
-
+a:hover {
+    color: blue;
+    text-decoration: none;
 }
 
-.exp {
-    width:1000px;
-    margin: auto;
+blink {
+    animation: blinker 1.5s linear infinite;
 }
-
-#developer {
-
-    float: right;
-
-}
-
-#about {
-    float: right;
-    position: relative;
-    right: 230px;
+@keyframes blinker {  
+    50% { opacity: 0; }
 }

@@ -1,36 +1,62 @@
-<html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <head>
-    
-        <title>REACTION TESTER</title>
-        
-        <link rel = "stylesheet" type = "text/css" href = "style.css">
-        
-    </head>
-    
-    <body>
-    
-        <h1><center>REACTION TESTER!</center></h1>
-        
-        <h2><p>Click on the figures as quickly as you can!<span id = "developer"><em>Created By:- Sibasish Tripathyy</em></span></p></h2>
-        <h3><span id="about"><em><a href="aboutMe.html">About Me!</a></em></span></p><h3>
-        
-        <p><strong>Your time: <span id = "timeTaken"></span></strong></p>
-        <p><strong>Your best time: <span id = "bestTimeTaken"></span></strong></p>
-        <p><strong>Average time: <span id = "avgTimeTaken"></span></strong></p>
-        
-        <p><strong>No of trials: <span id = "trials"></span></strong></p>
-        
-        <center><button class = "buttonDesign" id = "startButton">CLICK HERE TO START!</button></center>
-        
-        <div id = "shape-div">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Reaction Tester</title>
+  </head>
+  <body>
+
+      <div class="p-3 bg-success text-white display-3">Reaction Tester</div>
+
+      <table class="table table-info">
+        <tbody>
+          <tr>
+            <th scope="row">No Of Trials</th>
+            <td id="trials"></td>
+          </tr>
+          <tr>
+            <th scope="row">Your Time</th>
+            <td id="timeTaken"></td>
+          </tr>
+          <tr>
+            <th scope="row">Your Best Time</th>
+            <td id="bestTimeTaken"></td>
+          </tr>
+          <tr>
+            <th scope="row">Your Average Time</th>
+            <td id="avgTimeTaken"></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="text-center">
+        <button type="button" class="btn btn-outline-dark btn-lg" autocomplete="off" id="startButton">Click Here</button>
+      </div>
+
+      <div class="container-fluid">
             
-            <div id = "shape"></div>
+            <div id="shape"></div>
         
-        </div>
-                
-        <script type = "text/javascript" src = "script.js"></script>
-    
-    </body>
+      </div>
 
+      <div class="p-3 bg-light text-white fixed-bottom text-center lead"><span class="text-warning"><a href="aboutMe.html"><blink>Sibasish Tripathyy - About Me</blink></a></span></div>
+      
+
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type = "text/javascript" src = "script.js"></script>
+
+  </body>
 </html>
