@@ -70,8 +70,11 @@
                             
                             bestTime = timeTaken;
                     
-                }
+                        }
                     
+                        var audio = new Audio("click.mp3");
+                        audio.play();
+
                         document.getElementById("timeTaken").innerHTML = timeTaken.toFixed(3) + "s";
                         document.getElementById("bestTimeTaken").innerHTML = bestTime.toFixed(3) + "s";
                         
